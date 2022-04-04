@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+
+}
+
+body {
+    background: #25253F ; 
+
+}
+
+
+main header {
+    padding: 19px 94px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main h1 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 96px;
+    cursor: pointer;
+}
+
+section.perfils {
+    margin-left: 65px;
+    margin-top: 200px;
+    opacity: 60%;
+}
+
+.perf {
+    margin-top: -100px;
+    margin-left: 25px;
+    background: rgba(163, 163, 163, 0.171);
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 60px 180px;
+	border-radius: 10px;
+	display: inline-block;
+	border: none;
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.usuperf {
+    margin-left: 60px;  
+    margin-top: -90px;
+}
+
+.usuperf img {
+    width: 56px;
+    margin-left: 3rem;
+    -webkit-backdrop-filter: blur(30px);
+}
+
+section.cleit h1 {
+    font-weight: 100;
+    margin-top: -100px;
+    margin-left: 180px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+section.cleitdesc h1 {
+    margin-top: -5px;
+    margin-left: 180px;
+    font-weight: 100;
+    color: #ffffff8f;
+    font-size: 15px;
+}
+
+.cleit-note {
+    color: #fCC537;
+    margin-top: 5px;
+    margin-left: 177px;
+    align-items: center;
+}
+
+
+
+
+section.infor h1 {
+    margin-left: 95px;
+    margin-top: 50px;
+    font-weight: 200;
+    color: #9797be8f;
+    font-size: 16px;
+}
+
+section.titulor h1 {
+    font-weight: 600;
+    margin-left: 95px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+section.desc h1 {
+    margin-top: 10px;
+    margin-left: 95px;
+    font-weight: 100;
+    color: #ffffff8f;
+    font-size: 15px;
+}
+
+.contater  {
+    margin-top: 30px;
+    margin-left: 95px;
+    background: #5a53d8;
+	font-size: 16px;
+	font-weight: 600;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px 30px;
+	border-radius: 10px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.contater:hover {
+    background: #3d37ad;
+}
+
+section.boxes {
+    margin-left: 165px;
+    margin-top: 200px;
+    opacity: 60%;
+}
+
+.slot1 {
+    margin-top: 30px;
+    margin-left: 95px;
+    background: rgba(163, 163, 163, 0.171);
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 120px 180px;
+	border-radius: 10px;
+	display: inline-block;
+	border: none;
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.slot1 {
+    border-left: solid #5a53d8;
+}
+
+.v-line {
+    border-right: solid #5a53d836;
+    margin-top: -130px;
+    height: 100px;
+    width: 650px;
+    position: absolute;
+}
+
+
+.slot2 {
+    margin-top: 30px;
+    margin-left: 40px;
+    background: rgba(163, 163, 163, 0.171);
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 120px 180px;
+	border-radius: 10px;
+	display: inline-block;
+	border: none;
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.v-line2 {
+    border-right: solid #5a53d836;
+    margin-top: -130px;
+    height: 100px;
+    width: 1055px;
+    position: absolute;
+}
+
+.slot2 {
+    border-left: solid #5a53d8;
+}
+
+.slot3 {
+    margin-top: 30px;
+    margin-left: 40px;
+    background: rgba(163, 163, 163, 0.171);
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 120px 180px;
+	border-radius: 10px;
+	display: inline-block;
+	border: none;
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.slot3 {
+    border-left: solid #5a53d8;
+}
+
+.social-media {
+    margin-left: 750px;
+    margin-top: 250px;
+}
+
+.social-media img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+.social-media a:first-child img {
+    margin-left: 0;
+}
+
+section.direitos h1 {
+    margin-top: 20px;
+    margin-left: 725px;
+    font-weight: 100;
+    color: #ffffff8f;
+    font-size: 15px;
+}
+
+section.html h1 {
+    font-weight: 400;
+    margin-top: -520px;
+    margin-left: 280px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+section.java h1 {
+    font-weight: 400;
+    margin-top: -40px;
+    margin-left: 680px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+section.css h1 {
+    font-weight: 400;
+    margin-top: -40px;
+    margin-left: 1090px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.ling {
+    margin-left: 230px;  
+    margin-top: -90px;
+}
+
+.ling img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+.ling a:first-child img {
+    margin-left: 0;
+}
+
+.pp {
+    margin-left: 630px;  
+    margin-top: -60px;
+}
+
+.pp img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+.pp2 {
+    margin-left: 1040px;  
+    margin-top: -60px;
+}
+
+.pp2 img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+
+
+
+
+section.htmldesc h1 {
+    margin-top: 40px;
+    margin-left: 280px;
+    font-weight: 100;
+    color: #ffffff8f;
+    font-size: 14px;
+}
+
+section.javadesc h1 {
+    margin-top: -130px;
+    margin-left: 680px;
+    font-weight: 100;
+    color: #ffffff8f;
+    font-size: 14px;
+}
+
+section.cssdesc h1 {
+    margin-top: -130px;
+    margin-left: 1090px;
+    font-weight: 100;
+    color: #ffffff8f;
+    font-size: 14px;
+}
